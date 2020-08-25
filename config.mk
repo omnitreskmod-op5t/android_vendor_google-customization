@@ -14,9 +14,4 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_INCLUDE_WIFI_EXT),true)
-$(call inherit-product, vendor/google-customization/interfaces/wifi_ext/wifi-ext.mk)
-endif
-
-$(call inherit-product, vendor/google-customization/product/config.mk)
 $(call inherit-product, vendor/google-customization/apex/apex.mk)
